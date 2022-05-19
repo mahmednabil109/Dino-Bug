@@ -7,7 +7,7 @@ Just `copy and past` that in the console :
 Runner.instance_.gameOver = ()=>{}
 ```
 ```JS
-Runner.prototype.mahmedEnd = ()=>{
+Runner.prototype.happyEnd = ()=>{
     Runner.instance_.playSound(Runner.instance_.soundFx.HIT);
     vibrate(200);
 
@@ -37,6 +37,6 @@ Runner.prototype.mahmedEnd = ()=>{
 }
 ```
 
-Then after you Score a HigherScore Just Call `Runner.instance_.mahmedEnd()` to save the Score :smile:.
+Then after you Score a HigherScore Just Call `Runner.instance_.happyEnd()` to save the Score :smile:.
 ---
 
